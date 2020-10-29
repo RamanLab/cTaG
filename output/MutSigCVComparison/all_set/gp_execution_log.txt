@@ -1,0 +1,10 @@
+# Created: Tue Jun 18 16:54:23 UTC 2019 by malvika
+# Job: 135458    server:  https://cloud.genepattern.org/gp/
+# Module: MutSigCV urn:lsid:broad.mit.edu:cancer.software.genepattern.module.analysis:00320:1.3.4
+# Parameters: 
+#    mutation.table.file = cosmic_cdmutation.maf   https://cloud.genepattern.org/gp/users/malvika/tmp/run4935408556927594217.tmp/mutation.table.file/1/cosmic_cdmutation.maf
+#    coverage.table.file = exome_full192.coverage.txt   https://cloud.genepattern.org/gp/users/malvika/tmp/run2168878939884677287.tmp/coverage.table.file/2/exome_full192.coverage.txt
+#    covariates.table.file = ftp://ftp.broadinstitute.org/pub/genepattern/example_files/MutSigCV_1.3/gene.covariates.txt
+#    output.filename.base = all_output
+#    mutation.type.dictionary = mutation_type_dictionary_file.txt   https://cloud.genepattern.org/gp/users/malvika/tmp/run5109334088367070027.tmp/mutation.type.dictionary/3/mutation_type_dictionary_file.txt
+#    genome.build = hg19

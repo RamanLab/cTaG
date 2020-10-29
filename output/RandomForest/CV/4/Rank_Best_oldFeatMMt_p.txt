@@ -1,0 +1,37 @@
+# Silent/kb	TotMissense	TotSplicing	TotLOF	Missense/kb	LOF/kb	LOF/silent	Splicing/silent	Missense/silent	LOF/benign	Splicing/benign	Missense/benign	avgPolyphen2	LOF/tot	Missense/tot	Splicing/tot	LOF/missense	MissenseEntr
+# Number of features: 18
+# Shape of training set : (171, 18)
+# Shape of test set : (42, 18)
+# Best features:
+#	n_estimator:21
+#	max_features:sqrt
+#	max_depth:3
+#	criterion:gini
+
+	Training		Test	
+	TSG	OG	TSG	OG
+Accuracy	0.8363		0.7857	
+F1 score	0.8833	0.7255	0.8302	0.7097
+Precision	0.8092	0.9250	0.8462	0.6875
+Recall	0.9725	0.5968	0.8148	0.7333
+
+
+Feature Ranking
+01	13	LOF/tot	0.1656
+02	17	MissenseEntr	0.1075
+03	3	TotLOF	0.1057
+04	16	LOF/missense	0.0918
+05	6	LOF/silent	0.0850
+06	9	LOF/benign	0.0719
+07	12	avgPolyphen2	0.0712
+08	5	LOF/kb	0.0638
+09	8	Missense/silent	0.0506
+10	1	TotMissense	0.0496
+11	14	Missense/tot	0.0377
+12	11	Missense/benign	0.0332
+13	2	TotSplicing	0.0186
+14	0	Silent/kb	0.0143
+15	7	Splicing/silent	0.0116
+16	4	Missense/kb	0.0112
+17	10	Splicing/benign	0.0058
+18	15	Splicing/tot	0.0049

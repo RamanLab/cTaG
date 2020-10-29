@@ -1,0 +1,38 @@
+# Hifi/Lofi	Hifi/benign	Mifi/kb	Nonstop/kb	Inframe/kb	Complex/kb	Compound/benign	Compound/kB	Damaging/kb	Damaging/benign	Damaging/Lofi	HiMisFreq	FSEntr	HiFSFreq	SplicEntr	HiSplicFreq	NonsenseEntr	HiNonsenseFreq	TotMifi
+# Number of features: 19
+# Shape of training set : (171, 19)
+# Shape of test set : (42, 19)
+# Best features:
+#	n_estimator:23
+#	max_features:sqrt
+#	max_depth:3
+#	criterion:gini
+
+	Training		Test	
+	TSG	OG	TSG	OG
+Accuracy	0.8480		0.6667	
+F1 score	0.8898	0.7547	0.7308	0.5625
+Precision	0.8268	0.9091	0.7600	0.5294
+Recall	0.9633	0.6452	0.7037	0.6000
+
+
+Feature Ranking
+01	16	NonsenseEntr	0.1665
+02	11	HiMisFreq	0.1166
+03	13	HiFSFreq	0.1140
+04	17	HiNonsenseFreq	0.0758
+05	8	Damaging/kb	0.0666
+06	18	TotMifi	0.0633
+07	1	Hifi/benign	0.0594
+08	7	Compound/kB	0.0521
+09	0	Hifi/Lofi	0.0515
+10	15	HiSplicFreq	0.0467
+11	9	Damaging/benign	0.0426
+12	12	FSEntr	0.0388
+13	10	Damaging/Lofi	0.0330
+14	6	Compound/benign	0.0312
+15	2	Mifi/kb	0.0192
+16	4	Inframe/kb	0.0129
+17	5	Complex/kb	0.0096
+18	14	SplicEntr	0.0000
+19	3	Nonstop/kb	0.0000

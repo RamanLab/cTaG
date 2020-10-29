@@ -1,0 +1,56 @@
+# Silent/kb	TotMissense	TotSplicing	TotLOF	Missense/kb	LOF/kb	LOF/silent	Splicing/silent	Missense/silent	Hifi/Lofi	LOF/benign	Splicing/benign	Missense/benign	Hifi/benign	avgPolyphen2	LOF/tot	Missense/tot	Splicing/tot	LOF/missense	Mifi/kb	Nonstop/kb	Inframe/kb	Complex/kb	Compound/benign	Compound/kB	Damaging/kb	Damaging/benign	Damaging/Lofi	MissenseEntr	HiMisFreq	FSEntr	HiFSFreq	SplicEntr	HiSplicFreq	NonsenseEntr	HiNonsenseFreq	TotMifi
+# Number of features: 37
+# Shape of training set : (169, 37)
+# Shape of test set : (44, 37)
+# Best features:
+#	n_estimator:6
+#	max_features:log2
+#	max_depth:2
+#	criterion:entropy
+
+	Training		Test	
+	OG	TSG	OG	TSG
+Accuracy	0.8225		0.7500	
+F1 score	0.7000	0.8739	0.5600	0.8254
+Precision	0.8974	0.8000	0.7778	0.7429
+Recall	0.5738	0.9630	0.4375	0.9286
+
+
+Feature Ranking
+01	15	LOF/tot	0.3068
+02	28	MissenseEntr	0.1256
+03	5	LOF/kb	0.1008
+04	17	Splicing/tot	0.0678
+05	34	NonsenseEntr	0.0638
+06	4	Missense/kb	0.0591
+07	7	Splicing/silent	0.0564
+08	13	Hifi/benign	0.0521
+09	1	TotMissense	0.0508
+10	29	HiMisFreq	0.0461
+11	23	Compound/benign	0.0428
+12	3	TotLOF	0.0280
+13	36	TotMifi	0.0000
+14	11	Splicing/benign	0.0000
+15	12	Missense/benign	0.0000
+16	6	LOF/silent	0.0000
+17	10	LOF/benign	0.0000
+18	9	Hifi/Lofi	0.0000
+19	8	Missense/silent	0.0000
+20	2	TotSplicing	0.0000
+21	14	avgPolyphen2	0.0000
+22	18	LOF/missense	0.0000
+23	16	Missense/tot	0.0000
+24	35	HiNonsenseFreq	0.0000
+25	19	Mifi/kb	0.0000
+26	20	Nonstop/kb	0.0000
+27	21	Inframe/kb	0.0000
+28	22	Complex/kb	0.0000
+29	24	Compound/kB	0.0000
+30	25	Damaging/kb	0.0000
+31	26	Damaging/benign	0.0000
+32	27	Damaging/Lofi	0.0000
+33	30	FSEntr	0.0000
+34	31	HiFSFreq	0.0000
+35	32	SplicEntr	0.0000
+36	33	HiSplicFreq	0.0000
+37	0	Silent/kb	0.0000
